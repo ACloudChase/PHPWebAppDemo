@@ -1,0 +1,4 @@
+#!/bin/bash
+apt install apache2 libapache2-mod-php
+wget https://raw.githubusercontent.com/ACloudChase/PHPWebAppDemo/master/index.php -P /var/www/html
+systemctl start apache2.service
